@@ -17,8 +17,8 @@ services:
 
     ports:
       - "8003:8000"
-    networks:
-      - training_network
+    # networks:
+    #   - training_network
     restart: unless-stopped
 
 networks:
